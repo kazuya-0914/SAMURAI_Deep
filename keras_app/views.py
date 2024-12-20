@@ -120,7 +120,7 @@ class Chap04View(BaseContext, TemplateView):
     pre = pre
     url = 'img/unknown_sneaker.png'
     '''
-        # コンテキスト
+    # コンテキスト
     header = '4章 TensorFlow・Kerasとは #2'
     val = ''
     pre = ''
@@ -185,7 +185,7 @@ class Chap05View(BaseContext, TemplateView):
 
 # --- 6章 Kerasで手書き数字（MNIST）を判定するニューラルネットワークを構築しよう #2 --- #
 class Chap06View(BaseContext, TemplateView):
-    
+    '''
     # 前回のデータ
     data = tf.keras.datasets.mnist.load_data()
     (x_train, y_train), (x_test, y_test) = data
@@ -270,3 +270,18 @@ class Chap06View(BaseContext, TemplateView):
     val = val
     pre = pre
     url = url
+    '''
+    # コンテキスト
+    header = '6章 Kerasで手書き数字（MNIST）を判定するニューラルネットワークを構築しよう #2'
+    val = ''
+    pre = ''
+    url = ''
+
+# --- 8章 Kerasで画像（CIFAR-10）を判定するCNNを構築しよう #1--- #
+class Chap08View(BaseContext, TemplateView):
+
+    # コンテキスト
+    header = '8章 Kerasで画像（CIFAR-10）を判定するCNNを構築しよう #1'
+    val = ''
+    pre = ''
+    url = ''
